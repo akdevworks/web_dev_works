@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors</title>
+    <style>
+        /*1. Universal selector */
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+
+        /*2. Type selector */
+        p{
+            font-size: 12px;
+            margin-bottom: 10px;
+
+        }
+
+        /*3. Class selector */
+
+        .highlight{
+            background-color: rgba(216, 242, 196, 0.547);
+            font-style: italic;
+            font-weight: bolder;
+            font-size: 12pt;
+        }
+
+        /*4. ID selector */
+        
+        #header{
+            background-color: tomato;
+            font-size: 17pt;
+
+        }
+        /*5. Attribute Selector  */
+        
+        input[type="text"]{
+            border-radius: 3px;
+            border:  1px dashed green;
+        }
+        /*6. Descendant Selector */
+        article p{
+            font-style: italic;
+            padding:10px;
+        }
+
+        /*7. Child Selector */
+
+        ul>li{
+            background-color: tomato;
+            color:white;
+
+        }
+
+        /*8. adjecent sibling selector*/
+        h2 ~ p{
+            color:blanchedalmond;
+        }
+
+        /*9. Genreal sibling selector */
+
+        /*10 . pseudo- class selector */
+       
+
+
+        /*11. Pseudo-element selector*/
+         p::first-line{
+            color:tomato;
+        }
+
+        /*12. Grouping selector */
+        h1,h2,h3{color:green;}
+        
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <p class="highlight">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, veniam!
+    </p>
+
+    <p class="highlight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, porro dolor sed voluptates voluptatibus repellendus excepturi delectus pariatur laborum hic, quibusdam nisi asperiores recusandae nesciunt debitis autem? Nemo quos quia harum, cum ipsam tempore, distinctio enim obcaecati quo, fugiat dolore.</p>
+    
+</body>
+</html>
