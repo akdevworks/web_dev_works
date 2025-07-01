@@ -1,0 +1,78 @@
+/*1. universal selector*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 2.type selector */
+
+p{
+    font-size: 22px;
+    
+}
+
+/* 3.class selector */
+
+.highlight{
+    background-color: tomato;
+}
+
+/* 4.id selector */
+#header{
+    font-style: italic;
+}
+
+/* 5.attribute selector */
+
+input[type="text"]{
+    margin: 20px 20px;
+    margin-left: 0px;
+    width: 200px;
+    height: 200px;padding:20px;
+    overflow:unset;
+    border: 4px dashed black;
+}
+
+/* 6.decendent selector */
+
+article p{
+    color: thistle;
+   
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 1.8rem;
+    font-style: italic;
+}
+
+
+/* 7.child selector */
+ul>li{
+    list-style-type:square;
+    color:green
+}
+
+/* 8.adjecent sibling selector */
+h1+p{
+    font-style: italic;
+}
+/* 9.general sibling seelector */
+h2+p{
+    color:rgb(184, 141, 171)
+}
+/* 10.pseudo selector class */
+a:hover{
+    background-color: green;
+    color:white;
+}
+
+/* 11.pseudo element selector */
+p::first-letter{
+    color: red;
+    font-weight: bolder;
+    font-size: 1.7em;
+}
+
+
+
+
+
