@@ -1,0 +1,152 @@
+.main-container{
+    background-color: antiquewhite;
+    height:80vh;
+    overflow:scroll;
+    margin-top: 40px;
+    margin-bottom: 80px;
+
+    
+}
+
+.flx{
+    display: flex;
+    width: 50%;
+    border: 2px dashed green;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.num{
+    width: 30px;
+    padding:10px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom:auto;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.number-1{
+
+    background-color: tomato;
+    
+
+}
+.number-2{
+   background-color: green;
+
+}
+.number-3{
+    background-color: rgb(196, 255, 203);
+
+}
+
+.number-4{
+    background-color: rgb(8, 142, 142);
+
+}
+
+.number-5{
+    background-color: rgba(183, 24, 246, 0.406);
+
+
+}
+
+.default-flex-style{
+    background-color: white;
+}
+
+
+.flex-direction-column{
+    flex-direction: column;
+    overflow:scroll;
+    background-color: white;
+
+}
+
+.flex-direction-column-reverse{
+    flex-direction: column-reverse;
+    overflow:scroll;
+    background-color: white;
+}
+
+.justify-content-flex-end{
+
+    overflow:scroll;
+    background-color: white;
+    
+    justify-content: flex-end;
+
+}
+
+.align-items-center{
+    
+    overflow:scroll;
+    background-color: white;
+    align-items:end;
+    width: 70%;
+    height: auto;
+}
+
+.align-items-end {
+    overflow:scroll;
+    background-color: white;
+    align-items: end;
+    height: auto;
+}
+
+.align-items-start{
+    align-items: start;
+    overflow:scroll;
+    background-color: white;
+    height: auto;
+    
+}
+
+.align-items-baseline{
+    align-items: baseline;
+    height: auto;
+    overflow:scroll;
+    background-color: white;
+
+}
+
+.flx-wrap{
+    flex-wrap: wrap-reverse;
+    width: 30%;
+    overflow: scroll;
+    height: 200px;
+    background-color: white;
+}
+.align-content-space-around{
+    align-content: space-around;
+    background-color: white;
+    overflow: scroll;
+
+}
+
+.order-property-demo{
+    background-color: white;
+    overflow: scroll;
+    height: auto;
+}
+
+ .order-property-demo div {
+    cursor:cell;
+}
+
+
+.flex-grow{
+    background-color:yellow;
+
+    height: auto;
+}
+
+.flex-grow div{
+    flex-grow: 1;
+}
+.flex-grow div .number-3{
+    flex-grow: 3;
+    
+    
+}

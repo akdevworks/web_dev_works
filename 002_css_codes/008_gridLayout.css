@@ -1,0 +1,27 @@
+.item{
+    background-color: yellow;
+    border: 1px solid black;
+    
+
+}
+
+.grid-container{
+    display: grid;
+    /* grid-template-columns: 1fr 2fr 1fr 1fr; */
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 50px 50px 100px;
+    gap:2px;
+    
+}
+
+.item1{
+    grid-column: 1/4;
+    grid-row: 4/40;
+    background-color: green;
+
+}
+.item2{
+    grid-row: 4/30;
+    grid-column: 2/3;
+    background-color: tomato;
+}

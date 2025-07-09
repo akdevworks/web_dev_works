@@ -1,0 +1,61 @@
+body{
+    background-color: whitesmoke;
+}
+
+.nav-container{
+    border: 1px solid red;
+    background-color: rgba(0, 0, 0, 0.506);
+}
+
+.nav-container a{
+    color:white;
+    text-decoration: none;
+    
+}
+
+.nav-container .navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+    
+}
+
+
+.nav-container .navbar ul li{
+    display: block;
+
+}
+
+.nav-container .navbar .About-item {
+    display: none;
+
+    
+}
+.nav-container .navbar ul:hover .About-item{
+    display: block;
+    
+    justify-content: center;
+    position: absolute;
+    background-color: tomato;
+    margin-top: 0px;
+
+
+}
+
+
+.About-item ul {
+display: block;
+margin: 0;
+padding: 0;
+width: 100%;
+
+}
+.About-item ul li {
+display: block;
+margin: 0;
+padding: 10px;
+width: 100%;
+
+}
